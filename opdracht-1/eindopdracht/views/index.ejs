@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Enquete minor</title>
 </head>
 <body>
-    <h1>INDEXXXX</h1>
+    <h1>Enquete: Minor Webdesign & -development</h1>
+    <form method="POST" action="/">
+        <div>
+            <h2>Over jou</h2>
+            <ul>
+                <li>
+                    <label for="naam">Volledige naam</label>
+                    <input type="text" id="naam" name="name" required>
+                </li>
+                <li>
+                    <label for="nummer">Studenten nummer</label>
+                    <input type="text" id="nummer" name="nummer"required>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Blok 1</h2>
+
+            <h3>Vak 1</h3>
+            <p>Docenten: Naam 1, Naam 2</p>
+            <p>Periode: van ... tot ....</p>
+            <ul>
+                <li>
+                    <h4>Hoe moeilijk vond je het vak?</h4>
+                    <label>Heel makkelijk</label>
+                    <input type="radio" id="1-moeilijk-1" name="1-moeilijk" value="heel makkelijk" required> 
+                    <input type="radio" id="1-moeilijk-2" name="1-moeilijk" value="makkelijk" required> 
+                    <input type="radio" id="1-moeilijk-3" name="1-moeilijk" value="neutraal" required> 
+                    <input type="radio" id="1-moeilijk-4" name="1-moeilijk" value="moeilijk" required> 
+                    <input type="radio" id="1-moeilijk-5" name="1-moeilijk" value="heel moeilijk" required> 
+                    <label>Heel moeilijk</label>
+                </li>
+                <li>
+                    <h4>Wat vond je van de uitleg?</h4>
+                    <label>Heel slecht</label>
+                    <input type="radio" id="1-uitleg-1" name="1-uitleg" value="heel slecht" required> 
+                    <input type="radio" id="1-uitleg-2" name="1-uitleg" value="slecht" required> 
+                    <input type="radio" id="1-uitleg-3" name="1-uitleg" value="neutraal" required> 
+                    <input type="radio" id="1-uitleg-4" name="1-uitleg" value="goed" required> 
+                    <input type="radio" id="1-uitleg-5" name="1-uitleg" value="heel goed" required>
+                    <label>Heel goed</label> <br>
+
+                    <label for="1-toelichtinguitleg">Wil je dit toelichten?</label>
+                    <textarea id="1-toelichtinguitleg" rows="5"></textarea>
+                </li>
+                <li>
+                    <h4>Hoe goed snap je de behandelde stof?</h4>
+                    <label>Heel slecht</label>
+                    <input type="radio" id="1-snappen-1" name="1-snappen" value="heel slecht" required> 
+                    <input type="radio" id="1-snappen-2" name="1-snappen" value="slecht" required>
+                    <input type="radio" id="1-snappen-3" name="1-snappen" value="neutraal" required> 
+                    <input type="radio" id="1-snappen-4" name="1-snappen" value="goed" required> 
+                    <input type="radio" id="1-snappen-5" name="1-snappen" value="heel goed" required>
+                    <label>Heel goed</label> <br>
+
+                    <label for="1-toelichting-snappen">Wil je dit toelichten?</label>
+                    <textarea id="1-toelichting-snappen" rows="5"></textarea>
+                </li>
+                <li>
+                    <h4>Welk cijfer geef je het vak over het algemeen?</h4>
+                    <select name="1-cijfer" required>
+                        <option value="selecteer">selecteer een cijfer</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select>
+                </li>
+            </ul>
+        </div>
+
+        <input type="submit" value="Verstuur de enquete!">
+    </form>
+    
 </body>
 </html>
