@@ -12,12 +12,21 @@
     <h3>Je pagina is verzonden!</h3>
     <p>Bedankt voor het invullen van de pagina, <%- data.naam %>!</p>
 
-    <div>
-        <h3>Jouw antwoorden:</h3>
+    <section>
+        <h3>Jouw antwoorden</h3>
+
         <h4>Hoe moeilijk vond je het vak?</h4>
         <p><%- data['1-moeilijk'] %></p>
-       
-    </div>
+
+        <h4>Wat vond je van de uitleg?</h4>
+        <p><%- data['1-uitleg'] %></p>
+
+        <h4>Hoe goed snap je de behandelde stof?</h4>
+        <p><%- data['1-snappen'] %></p>
+
+        <h4>Welk cijfer geef je het vak over het algemeen?</h4>
+        <p><%- data['1-cijfer'] %></p>
+    </section>
 
 </body>
 </html>

@@ -58,3 +58,10 @@ form > div > ul li textarea{
     width: 100%;
     max-width: 500px;
 }
+
+section{
+    background-color: white;
+    padding: 1em 2em 2em 2em;
+    max-width: 95%;
+    margin-bottom: 1em;
+}
