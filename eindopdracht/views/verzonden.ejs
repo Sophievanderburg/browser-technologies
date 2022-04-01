@@ -8,24 +8,16 @@
     <title>Verzonden</title>
 </head>
 <body>
-
-    <h3>Je pagina is verzonden!</h3>
+    <h3>Je enquête is verzonden!</h3>
     <p>Bedankt voor het invullen van de pagina, <%- data.naam %>!</p>
 
     <section>
         <h3>Jouw antwoorden</h3>
 
-        <h4>Hoe moeilijk vond je het vak?</h4>
-        <p><%- data['1-moeilijk'] %></p>
-
-        <h4>Wat vond je van de uitleg?</h4>
-        <p><%- data['1-uitleg'] %></p>
-
-        <h4>Hoe goed snap je de behandelde stof?</h4>
-        <p><%- data['1-snappen'] %></p>
-
-        <h4>Welk cijfer geef je het vak over het algemeen?</h4>
-        <p><%- data['1-cijfer'] %></p>
+        <TABLE BORDER="1">
+            <TR> <TH></TH>      <TH>Moeilijkheid</TH>                   <TH>Uitleg</TH>                 <TH>Snappen</TH>                <TH>cijfer</TH></TR>
+            <TR> <TD>Vak 1</TD> <TD><%- data['1-moeilijk'] %></TD> <TD><%- data['1-uitleg'] %> </TD> <TD><%- data['1-snappen']%></TD> <TD><%- data['1-cijfer']%></TD></TR>
+            </TABLE>
     </section>
 
 </body>

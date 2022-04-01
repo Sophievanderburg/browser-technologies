@@ -65,3 +65,15 @@ section{
     max-width: 95%;
     margin-bottom: 1em;
 }
+
+section table{
+    border-collapse: collapse;
+    border: none;
+}
+
+section th, section td{
+    padding: 1em;
+    margin: 0;
+    border:none;
+    border-bottom: 1px solid black;
+}
