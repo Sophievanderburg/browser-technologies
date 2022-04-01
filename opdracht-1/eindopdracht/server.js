@@ -29,29 +29,24 @@ function renderPagina (req, res){
 }
 
 function verzenden (req, res){
-    console.log(req.body)
-
     userInput = JSON.stringify(req.body)
-	console.log(userInput);
 
 	fs.writeFile('informatie.json', userInput, 'utf8', cb => {
-		console.log('werk dan');
-	});
+    });
 
     res.redirect('/verzonden');
 }
 
 function renderVerzenden(req, res){
-    let ingevuld = fs.readFile('informatie.json', (err, data) => {
-        if (err) throw err;
-        let student = JSON.parse(data);
-        console.log(student);
+    fs.readFile('informatie.json', 'utf8', (err, data) => {
+
+        // if (err) throw err;
+        let ingevuldeData = JSON.parse(data);
+
+        res.render('verzonden', {
+            data: ingevuldeData
+        })
     });
-
-    console.log('ingevuld:', ingevuld)
-    
-    res.render('verzonden')
-
 
 }
 
