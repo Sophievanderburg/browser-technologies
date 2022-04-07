@@ -11,16 +11,10 @@ Link naar opdracht 2: [https://maggness.github.io/BT-Tim/opdracht2-BT-main/](htt
 ### Core functionaliteit
 De core functionaliteit voor de gebruiker is **het invullen en versturen** van de ingevulde enquête. <br>
 
-### Andere functionaliteiten
+### Extra functionaliteiten
 * Pagina met ingevulde antwoorden
 * Onthouden van naam en studentennummer (PE) <br> Als de gebruiker per ongeluk refresht of een andere keer verder wil, zijn die waardes onthouden. Het is me helaas nog niet gelukt om de browser de andere input types te laten onthouden.
 * Bevestigen van verzenden (PE)<br> Ookal moet alles ingevuld zijn voordat de gebruiker de enquête kan versturen is het fijn voor de gebruiker dat hij het niet perongeluk kan versturen. 
-
-Om de ervaring zo goed mogelijk te maken is het belangrijk om na te denken over:
-* De vragen die je aan de gebruiker stelt (Welke vragen zijn echt relevant en welke kan ik er beter uitlaten?)
-* Hoe stel je de vragen? (Welke tone of voice gebruik je?)
-* Hoe wordt het antwoord ingevuld? (Welke HTML etc.)
-* Zijn er foute antwoorden?
 
 ## :chart_with_upwards_trend: Progressive Enhancement
 ### Functional/reliable (HTML)
@@ -35,5 +29,6 @@ In deze laag heb je de ultieme ervaring. De gebruiker krijgt een pagina met HTML
 ![IMG_0098](https://user-images.githubusercontent.com/70577898/162171706-1955eaee-bb69-4762-a031-3cdb502d9e7f.jpg)
 
 
-## 💻 Test verslag
-Mijn test verslag is te vinden in de wiki
+## 
+
+Meer informatie en het testverslag is te vinden in mijn [wiki](https://github.com/Sophievanderburg/browser-technologies/wiki/Eindopdracht)!
