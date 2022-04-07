@@ -26,6 +26,7 @@ Ik heb de volgende dingen met Javascript toe gevoegd om de ervaring nog beter te
 * Safari Desktop
 * Chrome mobiel
 * Samsung internet mobiel
+* IE op de microsoft surface
 
 ### Gebruikte tools
 * [Caniuse](https://caniuse.com/)
