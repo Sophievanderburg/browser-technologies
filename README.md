@@ -15,7 +15,7 @@ De core functionaliteit voor de gebruiker is **het invullen en versturen** van d
 Om de ervaring zo goed mogelijk te maken is het belangrijk om na te denken over:
 * De vragen die je aan de gebruiker stelt (Welke vragen zijn echt relevant en welke kan ik er beter uitlaten?)
 * Hoe stel je de vragen? (Welke tone of voice gebruik je?)
-* Hoe wordt het antwoord ingevuld? (Welke HTML
+* Hoe wordt het antwoord ingevuld? (Welke HTML etc.)
 * Zijn er foute antwoorden?
 
 ## :chart_with_upwards_trend: Progressive Enhancement
