@@ -2,7 +2,11 @@
 Link naar opdracht 1: [https://sophievanderburg.github.io/opdracht1-BT/](https://sophievanderburg.github.io/opdracht1-BT/) </br>
 Link naar opdracht 2: [https://maggness.github.io/BT-Tim/opdracht2-BT-main/](https://maggness.github.io/BT-Tim/opdracht2-BT-main/)
 
-# Eindopdracht
+# Eindopdracht - Enquête minor Webdesign & -development
+
+> Gebruikte User Story
+> Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later  weer verder gaan met waar ik ben gebleven.
+
 ## 🕹️ Functionaliteiten
 ### Core functionaliteit
 De core functionaliteit voor de gebruiker is **het invullen en versturen** van de ingevulde enquête. <br>
@@ -32,16 +36,4 @@ In deze laag heb je de ultieme ervaring. De gebruiker krijgt een pagina met HTML
 
 
 ## 💻 Test verslag
-### Gebruikte browsers
-* Chrome Desktop
-* Safari Desktop
-* Chrome mobiel
-* Samsung internet mobiel
-* IE op de microsoft surface
-
-### Gebruikte tools
-* [Caniuse](https://caniuse.com/)
-  * Basic dingen als: padding, margin, flexbox, font-weight, text-transform
-  * Maar ook minder gebruikelijk dingen als: Confirm, border-collapse, eventlistener, sessionStorage & querySelector
-* JavaScript uitzetten in de browser
-* [Contrast checker](https://coolors.co/contrast-checker/)
+Mijn test verslag is te vinden in de wiki
