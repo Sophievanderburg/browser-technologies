@@ -32,4 +32,4 @@ Ik heb de volgende dingen met Javascript toe gevoegd om de ervaring nog beter te
   * Basic dingen als: padding, margin, flexbox, font-weight, text-transform
   * Maar ook minder gebruikelijk dingen als: Confirm & border-collapse
 * JavaScript uitzetten in de browser
-* [Contrast checker](https://coolors.co/contrast-checker/b50000-ffffff)
+* [Contrast checker](https://coolors.co/contrast-checker/)
