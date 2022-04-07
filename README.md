@@ -4,6 +4,9 @@ Link naar opdracht 2: [https://maggness.github.io/BT-Tim/opdracht2-BT-main/](htt
 
 # Eindopdracht - Enquête minor Webdesign & -development
 
+<img width="300" alt="Screenshot 2022-04-07 at 14 55 10" src="https://user-images.githubusercontent.com/70577898/162203775-84da28b8-da96-47bd-a6b6-1fba3d706b15.png"> <img width="300" alt="Screenshot 2022-04-07 at 14 56 08" src="https://user-images.githubusercontent.com/70577898/162203798-9b772c21-625a-4331-924b-d828b675128a.png">
+
+
 > Gebruikte User Story
 > Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later  weer verder gaan met waar ik ben gebleven.
 
