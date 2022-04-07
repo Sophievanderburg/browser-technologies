@@ -31,4 +31,4 @@ In deze laag heb je de ultieme ervaring. De gebruiker krijgt een pagina met HTML
 
 ## 
 
-Meer informatie en het testverslag is te vinden in mijn [wiki](https://github.com/Sophievanderburg/browser-technologies/wiki/Eindopdracht)!
+Het **testverslag  en de gebruikte bronnen** zijn te vinden in mijn [wiki](https://github.com/Sophievanderburg/browser-technologies/wiki/Eindopdracht)!
