@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <script defer type="module" src="/scripts/script.js"> </script>
 
     <title>Enquete minor</title>
 </head>
@@ -20,7 +21,7 @@
                     </li>
                     <li>
                         <label for="nummer">Studenten nummer</label>
-                        <input type="text" id="nummer" name="nummer"required>
+                        <input type="number" id="nummer" name="nummer"required>
                     </li>
                 </ul>
             </div>  
@@ -29,44 +30,47 @@
         <div>
             <h2>Blok 1</h2>
             <div>
-                <h3>Vak 1</h3>
-                <p>Docenten: Naam 1, Naam 2</p>
-                <p>Periode: van ... tot ....</p>
+                <h3>WAFS</h3>
+                <p>Docenten: Koop Reynders & Joost Faber</p>
+                <p>Periode: Week 2 t/m week 4</p>
                 <ul>
                     <li>
                         <h4>Hoe moeilijk vond je het vak?</h4>
-                        <label>Heel makkelijk</label>
-                        <input type="radio" id="1-moeilijk-1" name="1-moeilijk" value="Heel makkelijk" required> 
-                        <input type="radio" id="1-moeilijk-2" name="1-moeilijk" value="Makkelijk" required> 
-                        <input type="radio" id="1-moeilijk-3" name="1-moeilijk" value="Neutraal" required> 
-                        <input type="radio" id="1-moeilijk-4" name="1-moeilijk" value="Moeilijk" required> 
-                        <input type="radio" id="1-moeilijk-5" name="1-moeilijk" value="Heel moeilijk" required> 
-                        <label>Heel moeilijk</label>
+                        <label>Heel makkelijk - heel moeilijk</label>
+                        <div>
+                            <input type="radio" id="1-moeilijk-1" name="1-moeilijk" value="Heel makkelijk" required> 
+                            <input type="radio" id="1-moeilijk-2" name="1-moeilijk" value="Makkelijk" required> 
+                            <input type="radio" id="1-moeilijk-3" name="1-moeilijk" value="Neutraal" required> 
+                            <input type="radio" id="1-moeilijk-4" name="1-moeilijk" value="Moeilijk" required> 
+                            <input type="radio" id="1-moeilijk-5" name="1-moeilijk" value="Heel moeilijk" required> 
+                        </div>
                     </li>
                     <li>
                         <h4>Wat vond je van de uitleg?</h4>
-                        <label>Heel slecht</label>
-                        <input type="radio" id="1-uitleg-1" name="1-uitleg" value="Heel slecht" required> 
-                        <input type="radio" id="1-uitleg-2" name="1-uitleg" value="Slecht" required> 
-                        <input type="radio" id="1-uitleg-3" name="1-uitleg" value="Neutraal" required> 
-                        <input type="radio" id="1-uitleg-4" name="1-uitleg" value="Goed" required> 
-                        <input type="radio" id="1-uitleg-5" name="1-uitleg" value="Heel goed" required>
-                        <label>Heel goed</label> <br>
+                        <label>Heel slecht - heel goed</label>
+                        <div>
+                            <input type="radio" id="1-uitleg-1" name="1-uitleg" value="Heel slecht" required> 
+                            <input type="radio" id="1-uitleg-2" name="1-uitleg" value="Slecht" required> 
+                            <input type="radio" id="1-uitleg-3" name="1-uitleg" value="Neutraal" required> 
+                            <input type="radio" id="1-uitleg-4" name="1-uitleg" value="Goed" required> 
+                            <input type="radio" id="1-uitleg-5" name="1-uitleg" value="Heel goed" required>
+                        </div>
                     </li>
                     <li>
                         <h4>Hoe goed snap je de behandelde stof?</h4>
-                        <label>Heel slecht</label>
-                        <input type="radio" id="1-snappen-1" name="1-snappen" value="Heel slecht" required> 
-                        <input type="radio" id="1-snappen-2" name="1-snappen" value="Slecht" required>
-                        <input type="radio" id="1-snappen-3" name="1-snappen" value="Neutraal" required> 
-                        <input type="radio" id="1-snappen-4" name="1-snappen" value="Goed" required> 
-                        <input type="radio" id="1-snappen-5" name="1-snappen" value="Heel goed" required>
-                        <label>Heel goed</label> <br>
+                        <label>Heel slecht - heel goed</label>
+                        <div>
+                            <input type="radio" id="1-snappen-1" name="1-snappen" value="Heel slecht" required> 
+                            <input type="radio" id="1-snappen-2" name="1-snappen" value="Slecht" required>
+                            <input type="radio" id="1-snappen-3" name="1-snappen" value="Neutraal" required> 
+                            <input type="radio" id="1-snappen-4" name="1-snappen" value="Goed" required> 
+                            <input type="radio" id="1-snappen-5" name="1-snappen" value="Heel goed" required>
+                        </div>
                     </li>
                     <li>
                         <h4>Welk cijfer geef je het vak over het algemeen?</h4>
                         <select name="1-cijfer" required>
-                            <option value="selecteer">selecteer een cijfer</option>
+                            <option value="selecteer">Selecteer een cijfer</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -83,44 +87,164 @@
             </div>
             
             <div>
-                <h3>Vak 2</h3>
-                <p>Docenten: Naam 1, Naam 2</p>
-                <p>Periode: van ... tot ....</p>
+                <h3>CSS to the rescue</h3>
+                <p>Docenten: Vasilis van Gemert & Sanne 't Hooft</p>
+                <p>Periode: Week 2 t/m week 4</p>
                 <ul>
                     <li>
                         <h4>Hoe moeilijk vond je het vak?</h4>
-                        <label>Heel makkelijk</label>
-                        <input type="radio" id="2-moeilijk-1" name="2-moeilijk" value="Heel makkelijk" required> 
-                        <input type="radio" id="2-moeilijk-2" name="2-moeilijk" value="Makkelijk" required> 
-                        <input type="radio" id="2-moeilijk-3" name="2-moeilijk" value="Neutraal" required> 
-                        <input type="radio" id="2-moeilijk-4" name="2-moeilijk" value="Moeilijk" required> 
-                        <input type="radio" id="2-moeilijk-5" name="2-moeilijk" value="Heel moeilijk" required> 
-                        <label>Heel moeilijk</label>
+                        <label>Heel makkelijk - heel moeilijk</label>
+                        <div>
+                            <input type="radio" id="2-moeilijk-1" name="2-moeilijk" value="Heel makkelijk" required> 
+                            <input type="radio" id="2-moeilijk-2" name="2-moeilijk" value="Makkelijk" required> 
+                            <input type="radio" id="2-moeilijk-3" name="2-moeilijk" value="Neutraal" required> 
+                            <input type="radio" id="2-moeilijk-4" name="2-moeilijk" value="Moeilijk" required> 
+                            <input type="radio" id="2-moeilijk-5" name="2-moeilijk" value="Heel moeilijk" required> 
+                        </div>
                     </li>
                     <li>
                         <h4>Wat vond je van de uitleg?</h4>
-                        <label>Heel slecht</label>
-                        <input type="radio" id="2-uitleg-1" name="2-uitleg" value="Heel slecht" required> 
-                        <input type="radio" id="2-uitleg-2" name="2-uitleg" value="Slecht" required> 
-                        <input type="radio" id="2-uitleg-3" name="2-uitleg" value="Neutraal" required> 
-                        <input type="radio" id="2-uitleg-4" name="2-uitleg" value="Goed" required> 
-                        <input type="radio" id="2-uitleg-5" name="2-uitleg" value="Heel goed" required>
-                        <label>Heel goed</label> <br>
+                        <label>Heel slecht- heel goed</label>
+                        <div>
+                            <input type="radio" id="2-uitleg-1" name="2-uitleg" value="Heel slecht" required> 
+                            <input type="radio" id="2-uitleg-2" name="2-uitleg" value="Slecht" required> 
+                            <input type="radio" id="2-uitleg-3" name="2-uitleg" value="Neutraal" required> 
+                            <input type="radio" id="2-uitleg-4" name="2-uitleg" value="Goed" required> 
+                            <input type="radio" id="2-uitleg-5" name="2-uitleg" value="Heel goed" required>
+                        </div>
                     </li>
                     <li>
                         <h4>Hoe goed snap je de behandelde stof?</h4>
-                        <label>Heel slecht</label>
-                        <input type="radio" id="2-snappen-1" name="2-snappen" value="Heel slecht" required> 
-                        <input type="radio" id="2-snappen-2" name="2-snappen" value="Slecht" required>
-                        <input type="radio" id="2-snappen-3" name="2-snappen" value="Neutraal" required> 
-                        <input type="radio" id="2-snappen-4" name="2-snappen" value="Goed" required> 
-                        <input type="radio" id="2-snappen-5" name="2-snappen" value="Heel goed" required>
-                        <label>Heel goed</label> <br>
+                        <label>Heel slecht - heel goed</label>
+                        <div>
+                            <input type="radio" id="2-snappen-1" name="2-snappen" value="Heel slecht" required> 
+                            <input type="radio" id="2-snappen-2" name="2-snappen" value="Slecht" required>
+                            <input type="radio" id="2-snappen-3" name="2-snappen" value="Neutraal" required> 
+                            <input type="radio" id="2-snappen-4" name="2-snappen" value="Goed" required> 
+                            <input type="radio" id="2-snappen-5" name="2-snappen" value="Heel goed" required>
+                        </div>
                     </li>
                     <li>
                         <h4>Welk cijfer geef je het vak over het algemeen?</h4>
                         <select name="2-cijfer" required>
-                            <option value="selecteer">selecteer een cijfer</option>
+                            <option value="selecteer">Selecteer een cijfer</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h2>Blok 2</h2>
+            <div>
+                <h3>Progressive Web Apps</h3>
+                <p>Docenten: Justus Sturkenboom & Declan</p>
+                <p>Periode: Week 6 t/m week 8</p>
+                <ul>
+                    <li>
+                        <h4>Hoe moeilijk vond je het vak?</h4>
+                        <label>Heel makkelijk - heel moeilijk</label>
+                        <div>
+                            <input type="radio" id="3-moeilijk-1" name="3-moeilijk" value="Heel makkelijk" required> 
+                            <input type="radio" id="3-moeilijk-2" name="3-moeilijk" value="Makkelijk" required> 
+                            <input type="radio" id="3-moeilijk-3" name="3-moeilijk" value="Neutraal" required> 
+                            <input type="radio" id="3-moeilijk-4" name="3-moeilijk" value="Moeilijk" required> 
+                            <input type="radio" id="3-moeilijk-5" name="3-moeilijk" value="Heel moeilijk" required> 
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Wat vond je van de uitleg?</h4>
+                        <label>Heel slecht- heel goed</label>
+                        <div>
+                            <input type="radio" id="3-uitleg-1" name="3-uitleg" value="Heel slecht" required> 
+                            <input type="radio" id="3-uitleg-2" name="3-uitleg" value="Slecht" required> 
+                            <input type="radio" id="3-uitleg-3" name="3-uitleg" value="Neutraal" required> 
+                            <input type="radio" id="3-uitleg-4" name="3-uitleg" value="Goed" required> 
+                            <input type="radio" id="3-uitleg-5" name="3-uitleg" value="Heel goed" required>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Hoe goed snap je de behandelde stof?</h4>
+                        <label>Heel slecht - heel goed</label>
+                        <div>
+                            <input type="radio" id="3-snappen-1" name="3-snappen" value="Heel slecht" required> 
+                            <input type="radio" id="3-snappen-2" name="3-snappen" value="Slecht" required>
+                            <input type="radio" id="3-snappen-3" name="3-snappen" value="Neutraal" required> 
+                            <input type="radio" id="3-snappen-4" name="3-snappen" value="Goed" required> 
+                            <input type="radio" id="3-snappen-5" name="3-snappen" value="Heel goed" required>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Welk cijfer geef je het vak over het algemeen?</h4>
+                        <select name="3-cijfer" required>
+                            <option value="selecteer">Selecteer een cijfer</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>Browser technologies</h3>
+                <p>Docenten: Peter-Paul Koch & Robert Spier</p>
+                <p>Periode: Week 6 t/m week 8</p>
+                <ul>
+                    <li>
+                        <h4>Hoe moeilijk vond je het vak?</h4>
+                        <label>Heel makkelijk - heel moeilijk</label>
+                        <div>
+                            <input type="radio" id="4-moeilijk-1" name="4-moeilijk" value="Heel makkelijk" required> 
+                            <input type="radio" id="4-moeilijk-2" name="4-moeilijk" value="Makkelijk" required> 
+                            <input type="radio" id="4-moeilijk-3" name="4-moeilijk" value="Neutraal" required> 
+                            <input type="radio" id="4-moeilijk-4" name="4-moeilijk" value="Moeilijk" required> 
+                            <input type="radio" id="4-moeilijk-5" name="4-moeilijk" value="Heel moeilijk" required> 
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Wat vond je van de uitleg?</h4>
+                        <label>Heel slecht- heel goed</label>
+                        <div>
+                            <input type="radio" id="4-uitleg-1" name="4-uitleg" value="Heel slecht" required> 
+                            <input type="radio" id="4-uitleg-2" name="4-uitleg" value="Slecht" required> 
+                            <input type="radio" id="4-uitleg-3" name="4-uitleg" value="Neutraal" required> 
+                            <input type="radio" id="4-uitleg-4" name="4-uitleg" value="Goed" required> 
+                            <input type="radio" id="4-uitleg-5" name="4-uitleg" value="Heel goed" required>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Hoe goed snap je de behandelde stof?</h4>
+                        <label>Heel slecht - heel goed</label>
+                        <div>
+                            <input type="radio" id="4-snappen-1" name="4-snappen" value="Heel slecht" required> 
+                            <input type="radio" id="4-snappen-2" name="4-snappen" value="Slecht" required>
+                            <input type="radio" id="4-snappen-3" name="4-snappen" value="Neutraal" required> 
+                            <input type="radio" id="4-snappen-4" name="4-snappen" value="Goed" required> 
+                            <input type="radio" id="4-snappen-5" name="4-snappen" value="Heel goed" required>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Welk cijfer geef je het vak over het algemeen?</h4>
+                        <select name="4-cijfer" required>
+                            <option value="selecteer">Selecteer een cijfer</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -139,6 +263,5 @@
 
         <input type="submit" value="Verstuur de enquete!">
     </form>
-    
 </body>
 </html>

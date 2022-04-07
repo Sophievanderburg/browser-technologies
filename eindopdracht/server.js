@@ -34,7 +34,7 @@ function verzenden (req, res){
 	fs.writeFile('informatie.json', userInput, 'utf8', cb => {
     });
 
-    res.redirect('/verzonden');
+    res.redirect('/verzonden')
 }
 
 function renderVerzenden(req, res){

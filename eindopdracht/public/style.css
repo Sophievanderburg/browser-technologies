@@ -1,19 +1,29 @@
+@font-face {
+    font-family: "Arial";
+    src: url("/fonts/Arial.ttf") format(ttf);
+  }
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     padding: 0;
+}
+
+html{
+    margin: 1em;
 }
 
 h1, h2, h3, h4{
     font-weight: 900;
 }
 
-p, label{
+p, label, select, a{
     font-weight: 700;
     color:rgb(85, 85, 85);
 }
 
 body{
     background-color: rgb(244, 244, 244);
+    padding: 0; margin:0;
 }
 
 form > div{
@@ -21,18 +31,20 @@ form > div{
     padding: 1em 2em 2em 2em;
     max-width: 95%;
     margin-bottom: 1em;
+    border-radius: 0.5em;
 }
 
 form > div > div > h2{
     width: 100%;
     padding-bottom: 0.5em;
-    color: #ffc400;
+    color: #B50000;
     text-transform: uppercase;
     border-bottom: 1px solid rgb(223, 223, 223);
 }
 
 form > div > div >  h3{
     font-weight: 900;
+    color: #B50000;
 }
 
 form > div > div >  h4{
@@ -45,7 +57,9 @@ form > div > div >  input{
 }
 
 form > div > div select{
-    border: 3px solid red;
+    padding: 0.5em;
+    background-color: rgb(235, 235, 235);
+    border: none;
 }
 
 form > div > div >  ul{
@@ -61,20 +75,39 @@ section{
     padding: 1em 2em 2em 2em;
     max-width: 95%;
     margin-bottom: 1em;
+    border-radius: 0.5em;
+    
 }
 
-section table{
+section div{
+    overflow-x: auto;
+}
+
+section div table{
     border-collapse: collapse;
     border: none;
+    width: 80%;
 }
 
 section th, section td{
     padding: 1em;
     margin: 0;
     border:none;
+    width: 8em;
     border-bottom: 1px solid rgb(206, 206, 206);
 }
 
 section th{
-    color: #ffc400;
+    color: #B50000;
+}
+
+a, input[type='submit']{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    padding: 1em 1.5em;
+    background-color: #B50000;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: 700;
 }
