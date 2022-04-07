@@ -19,3 +19,17 @@ Ik heb de volgende dingen met Javascript toe gevoegd om de ervaring nog beter te
 
 
 ![IMG_0098](https://user-images.githubusercontent.com/70577898/162171706-1955eaee-bb69-4762-a031-3cdb502d9e7f.jpg)
+
+## Test verslag
+### Gebruikte browsers
+* Chrome Desktop
+* Safari Desktop
+* Chrome mobiel
+* Samsung internet mobiel
+
+### Gebruikte tools
+* [Caniuse](https://caniuse.com/)
+  * Basic dingen als: padding, margin, flexbox, font-weight, text-transform
+  * Maar ook minder gebruikelijk dingen als: Confirm & border-collapse
+* JavaScript uitzetten in de browser
+* [Contrast checker](https://coolors.co/contrast-checker/b50000-ffffff)
